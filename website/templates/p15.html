@@ -1,0 +1,176 @@
+{% include 'header.html' %}        
+        
+        <div class="site has-subnav">
+            {% include 'secondNav.html' %}
+            <!--googleon: all-->
+            <main role="main" class="main" id="content">
+                <article class="main-article">
+                    <!--slideshow-->
+                    <div id="product-slideshow" class="product-slideshow multiple-images has-arrows">
+                    	<div class="slideshow">
+                                <div>
+                                    <img src="../static/image/productImage/tuila/big/tuila1.jpg">
+                                </div>
+                                <div>
+                                    <img src="../static/image/productImage/tuila/big/tuila2.jpg">
+                                </div>
+                                <div>
+                                    <img src="../static/image/productImage/tuila/big/tuila3.jpg">
+                                </div>
+                                <div>
+                                    <img src="../static/image/productImage/tuila/big/tuila4.jpg">
+                                </div>
+                                <div>
+                                    <img src="../static/image/productImage/tuila/big/tuila5.jpg">
+                                </div>
+                                <div>
+                                    <img src="../static/image/productImage/tuila/big/tuila6.jpg">
+                                </div>
+                                <div>
+                                    <img src="../static/image/productImage/tuila/big/tuila7.jpg">
+                                </div>
+                                <div>
+                                    <img src="../static/image/productImage/tuila/big/tuila8.jpg">
+                                </div>
+                                <div>
+                                    <img src="../static/image/productImage/tuila/big/tuila9.jpg">
+                                </div>
+                         </div> 
+
+                        <div class="figcapdiv">
+                        <figcaption>推拉门</figcaption>
+                        </div>
+                        
+                        <div class="slides fixslider">
+                        			<figure class="slick-slide">
+                                        <img src="../static/image/productImage/tuila/small/tuila1.jpg">
+                        			</figure>
+                        			<figure class="slick-slide">
+                                        <img src="../static/image/productImage/tuila/small/tuila2.jpg">
+                        			</figure>
+                        			<figure class="slick-slide">
+                                        <img src="../static/image/productImage/tuila/small/tuila3.jpg">
+                        			</figure>
+                        			<figure class="slick-slide">
+                                        <img src="../static/image/productImage/tuila/small/tuila4.jpg">
+                        			</figure>
+                        			<figure class="slick-slide">
+                                        <img src="../static/image/productImage/tuila/small/tuila5.jpg">
+                        			</figure>
+                        			<figure class="slick-slide">
+                                        <img src="../static/image/productImage/tuila/small/tuila6.jpg">
+                        			</figure>
+                        			<figure class="slick-slide">
+                                        <img src="../static/image/productImage/tuila/small/tuila7.jpg">
+                        			</figure>
+                        			<figure class="slick-slide">
+                                        <img src="../static/image/productImage/tuila/small/tuila8.jpg">
+                        			</figure>
+                        			<figure class="slick-slide">
+                                        <img src="../static/image/productImage/tuila/small/tuila9.jpg">
+                        			</figure>
+                         </div>
+
+                        <script type="text/javascript">
+                            jQuery(document).ready(function() {
+                                jQuery('.slideshow').slick({
+                                    slidesToShow: 1,
+                                    slidesToScroll: 1,
+                                    arrows: false,
+                                    fade: true,
+                                    asNavFor: '.slides'
+                                });
+                                jQuery('.slides').slick({
+                                    slidesToShow: 4,
+                                    slidesToScroll: 1,
+                                    asNavFor: '.slideshow',
+                                    dots: false,
+                                    arrows: true,
+                                    focusOnSelect: true,
+                                    autoplay: true,
+                                    autoplaySpeed: 6000,
+                                    speed: 500,
+                                    nextArrow: '<div class="slick-next"><i class="genericon genericon-rotate-90 genericon-collapse"></i></div>',
+                                    prevArrow: '<div class="slick-prev"><i class="genericon genericon-rotate-90 genericon-expand"></i></div>',
+                                    responsive: [
+                                      {
+                                        breakpoint: 1024,
+                                        settings: {
+                                          slidesToShow: 3,
+                                          slidesToScroll: 3,
+                                          infinite: true,
+                                        }
+                                      },
+                                      {
+                                        breakpoint: 600,
+                                        settings: {
+                                          slidesToShow: 2,
+                                          slidesToScroll: 2,
+                                          arrows: false
+                                        }
+                                      }
+                                      // You can unslick at a given breakpoint now by adding:
+                                      // settings: "unslick"
+                                      // instead of a settings object
+                                    ]
+                                });
+                            });
+                        </script>
+                    </div> <!--product-slideshow-->
+
+                    <div>
+                        <div class="portlet-content__container">
+
+                        </div>
+                    </div>
+
+                    <div class="product-presentation">
+                        <h2>推拉门</h2>
+                        <p>
+                        产品描述：
+                        </p>
+                        <p>
+                        开启方式：
+                        </p>
+                        <p>
+                        类别：
+                        </p>
+                        <p>
+                        使用范围：
+                        </p>
+                        <p>
+                        门框最大尺寸：
+                        </p>
+                        <p>
+                        </p>
+                        <p>
+                        产品特点：
+                        </p>
+                    </div>
+                    
+                    <!--this is the video container-->
+                    <!--
+                    <div>
+                        <div class="x-portlet-zone x-number-of-areas-1 x-portlet-zone-horizontal portlet-content sub-content" id="topcontentportlets">
+                            <div id="topcontentportlets_0" class="x-portlet-area first-portlet-area last-portlet-area">
+                                <div class="embedded-video-portlet embedded-video-portlet--youtube embedded-video-portlet--no-bottom first-portlet last-portlet x-portlet">
+                                    <div id="ctl00_ctl00_bodyRegion_pageRegion_ContentRegion_MainContentRegion_applicationRegion_ctrlProductInfo_topcontentportlets_ctl02_topcontentportlets_0_ctl01_ctl01_ctrlVideoContainer" class="embedded-video-portlet__container">
+                                        <iframe type="text/html" src="//www.youtube-nocookie.com/embed/VrekbUU4JPo?rel=0&amp;wmode=transparent" frameborder="0" allowfullscreen="true"></iframe>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portlet-content__container">
+                        </div>
+                    </div>
+                    -->
+
+
+                </article>
+
+            </main>
+
+        </div> <!--end of has subnav-->
+
+{% include 'footer.html' %}

@@ -45,6 +45,14 @@ def videos():
 def contactus():
   return render_template('contactus.html')
 
+@app.route('/case')
+def case():
+  return render_template('case.html')
+
+@app.route('/design')
+def design():
+  return render_template('design.html')
+
 @app.route('/p1')
 def p1():
   return render_template('p1.html')
@@ -100,4 +108,8 @@ def p13():
 @app.route('/p14')
 def p14():
   return render_template('p14.html')
+
+@app.route('/p15')
+def p15():
+  return render_template('p15.html')
 

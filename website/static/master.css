@@ -287,9 +287,14 @@ figure {
     color: #fff;
 }
 
+.slideshow .slick-slide{
+    height: 478px !important;
+}
+
 .slideshow-p .slick-track .slick-slide{
     height: 478px !important;
 }
+
 .slides .slick-track .slick-slide{
     height: 85px !important;
 }
@@ -618,6 +623,7 @@ padding: 3px 6px;
     width: 180px !important;
     height: 85px !important;
     line-height: 3 !important;
+    background: #d9d9d9 !important;
 }
 
 .magiccontainer:hover{
