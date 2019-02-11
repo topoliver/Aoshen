@@ -1,3 +1,13 @@
+.qrcode {
+    width: 160px;
+    margin: 22px;
+}
+
+.contacttext {
+    margin: 22px;
+    font-size: 16;
+}
+
 .site {
     max-width: 1280px;
     margin: 0 auto;
@@ -569,7 +579,8 @@ margin: 12px 0;
 padding: 3px 6px;
 }
 
-#introbody{ width:1280px; 
+#introbody{ 
+            width:1280px; 
             overflow:hidden;  
             text-align:left;
             margin: auto;
@@ -578,7 +589,9 @@ padding: 3px 6px;
  /*#f2f4f7*/
 }
 
-#contactbody{ width:1280px; 
+#contactbody{ 
+            width:1280px; 
+            height: 370px;
             overflow:hidden;  
             text-align:left;
             margin: auto;
